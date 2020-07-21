@@ -42,4 +42,10 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 /* FILE 3 */
 void binary_tree_delete(binary_tree_t *tree);
 
+/* FILE 4 */
+int binary_tree_is_leaf(const binary_tree_t *node);
+
+/* FILE 5 */
+int binary_tree_is_root(const binary_tree_t *node);
+
 #endif
